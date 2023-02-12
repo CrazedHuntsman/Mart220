@@ -11,19 +11,19 @@
       let myFont2;
 
       function preload(){
-        img1 = loadImage('C:\Users\Night\Documents\GitHub\Mart220\Week3\Images\alfredo.jpg')
+        img1 = loadImage('Images\alfredo.jpg')
       }
       fucntion preload(){
-        img2 = loadImage('C:\Users\Night\Documents\GitHub\Mart220\Week3\Images\fettuccine.jpg')
+        img2 = loadImage('Images\fettuccine.jpg')
       }
       function preload(){
-        img3 = loadImage('C:\Users\Night\Documents\GitHub\Mart220\Week3\Images\pasta.jpg')
+        img3 = loadImage('Images\pasta.jpg')
       }
       function preload(){
-        myfont1 = loadFont('C:\Users\Night\Documents\GitHub\Mart220\Week3\fonts\Abel-Regular.ttf')
+        myfont1 = loadFont('fonts\Abel-Regular.ttf')
       }
       function preload(){
-        myfont2 = loadFont('C:\Users\Night\Documents\GitHub\Mart220\Week3\fonts\MokayaFreeVertion-Regular.ttf')
+        myfont2 = loadFont('fonts\MokayaFreeVertion-Regular.ttf')
       }
 
       function setup(){
