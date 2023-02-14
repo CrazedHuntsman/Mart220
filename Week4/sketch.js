@@ -34,13 +34,13 @@ function draw() {
 function movementT(){
     if(key == 'd'){
         walkmyHero.draw(i);
-        walkmyHero.setX(walkmyHero.getx()+6);
-        idlemyHero.setX(idlemyHero.getX()+6);
+        walkmyHero.setX(walkmyHero.getx()+3);
+        idlemyHero.setX(idlemyHero.getX()+3);
     }
     else if(key == 'a'){
         walkmyHero.draw(i);
-        walkmyHero.setX(walkmyHero.getX()-6);
-        idlemyHero.setX(idlemyHero.getX()-6);
+        walkmyHero.setX(walkmyHero.getX()-3);
+        idlemyHero.setX(idlemyHero.getX()-3);
     }
 
     else{
