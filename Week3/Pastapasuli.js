@@ -2,7 +2,8 @@
       var startButton;
       var timerX = 20;
       var timerY = 40;
-      var timerC = 130
+      var timerC = 130;
+      var counter = 0;
 
       let img1;
       let img2;
@@ -12,23 +13,15 @@
 
       function preload(){
         img1 = loadImage('Images\alfredo.jpg')
-      }
-      fucntion preload(){
-        img2 = loadImage('Images\fettuccine.jpg')
-      }
-      function preload(){
-        img3 = loadImage('Images\pasta.jpg')
-      }
-      function preload(){
-        myfont1 = loadFont('fonts\Abel-Regular.ttf')
-      }
-      function preload(){
-        myfont2 = loadFont('fonts\MokayaFreeVertion-Regular.ttf')
+            img2 = loadImage('Images\fettuccine.jpg')
+            img3 = loadImage('Images\pasta.jpg')
+            myfont1 = loadFont('fonts\Abel-Regular.ttf')
+            myfont2 = loadFont('fonts\MokayaFreeVertion-Regular.ttf')
       }
 
       function setup(){
         createCanvas (500,500);
-        setInterval(spookyTimer,1000);
+        setInterval(displayCounter, 50);
       }
 
       function draw(){
