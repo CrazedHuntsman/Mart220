@@ -1,6 +1,6 @@
-var myHero = [];
-myHero[0] = hero1 = new myHero (churm,rogue,52,dagger,green);
-myHero[1] = hero2 = new myHero (roln,paladin,60,greatsword);
+var pumpkin = [];
+pumpkin[0] = hero1 = new myHero (churm,rogue,52,dagger,green);
+pumpkin[1] = hero2 = new myHero (roln,paladin,60,greatsword);
 var idlemyHero;
 var walkmyHero;
 var turkeydinner;
@@ -10,15 +10,15 @@ var counter = 0;
 var i = 0;
 
 function preload(){
-background01 = loadimage("../assests/background01.png");
-turkeydinner = loadimage("../assets/turkey/turkeymeal.jpg");
-idleAnimation = loadStrings("../assets/idle/idle.txt");
-walkAnimation = loadStrings("../assets/walk/walk.txt")
+background01 = loadImage("./assests/background01.png");
+turkeydinner = loadImage("./assets/turkey/turkeymeal.jpg");
+idleAnimation = loadStrings("./assets/idle/idle.txt");
+walkAnimation = loadStrings("./assets/walk/walk.txt")
 }
 
 function setup() {
     createCanvas(800,600);
-    image{background01,0,0,512,512};
+    image(background01,0,0,512,512);
     setInterval(displayCounter, 50);
     idlemyHero = new myHero(idleAnimation,250,100,150,150);
     idlemyHero.animate();

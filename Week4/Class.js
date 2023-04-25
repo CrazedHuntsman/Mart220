@@ -18,7 +18,7 @@ setX(x)
     this.x = x;
 }
 draw(i){
-    Image(this.character[r], this.x,this.y,this.height);
+    image(this.character[r], this.x,this.y,this.height);
 }
 animte()
 {

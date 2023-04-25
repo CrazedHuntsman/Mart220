@@ -11,6 +11,5 @@ class turkeyFood{
     this.x = x;
   }
   draw(i){
-    
   }
 }
